@@ -1,6 +1,18 @@
 # ⚡ Power Trading Agent for IEX (India)
 
+[![Streamlit Cloud](https://img.shields.io/badge/Deployed%20on-Streamlit%20Cloud-ff4b4b?logo=streamlit&logoColor=white)](https://share.streamlit.io/) 
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A modern, agentic AI platform for automated trading, forecasting, and analytics on the Indian Energy Exchange (IEX). Features real-time data scraping (no Selenium required!), price forecasting, rule-based trading, backtesting, and a beautiful Streamlit dashboard for visualization and control.
+
+---
+
+## 📊 Demo
+
+![Dashboard Screenshot](https://raw.githubusercontent.com/TIWARINEERAJ/power-trading-agent/main/demo_screenshot.png)
+
+> _Add your own screenshot or GIF above after your first deployment!_
 
 ---
 
@@ -104,6 +116,25 @@ A modern, agentic AI platform for automated trading, forecasting, and analytics 
 - [ ] Mobile-responsive design improvements
 - [ ] Order cancellation functionality
 - [ ] Email notifications for completed trades
+
+---
+
+## ❓ FAQ
+
+**Q: Where does the data come from?**  
+A: The app fetches live spot market data from the [IEX India](https://www.iexindia.com/) website using HTTP requests and parses the results with pandas.
+
+**Q: Can I use this for live trading?**  
+A: This project is for research, education, and prototyping. For production or live trading, thorough testing and additional risk controls are required.
+
+**Q: Can I customize the trading logic or forecasting model?**  
+A: Absolutely! Edit `src/agents/rule_based_agent.py` for trading rules or `src/models/price_forecaster.py` for the forecasting model.
+
+**Q: How do I deploy this on Streamlit Cloud?**  
+A: Push your code to GitHub, connect your repo on [Streamlit Cloud](https://streamlit.io/cloud), and set the entry point to `src/app.py`.
+
+**Q: The app fails to fetch data. What should I do?**  
+A: Check your network, ensure the IEX site is up, and review logs for error messages. If the page structure changes, update the scraping logic in `iex_api.py`.
 
 ---
 
