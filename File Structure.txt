@@ -1,0 +1,38 @@
+power-trading-agent/
+│
+├── config/                  # Configuration files (API keys, settings)
+│   └── config.yaml
+│
+├── data/                    # Historical data storage
+│   ├── iex_prices.csv
+│   └── weather_data.csv
+│
+├── src/
+│   ├── agents/              # Decision-making modules
+│   │   ├── rule_based_agent.py
+│   │   └── rl_agent.py
+│   │
+│   ├── data_fetcher/        # Market/weather data ingestion
+│   │   ├── iex_api.py
+│   │   └── weather_api.py
+│   │
+│   ├── models/              # Forecasting and prediction models
+│   │   ├── price_forecaster.py
+│   │   └── demand_predictor.py
+│   │
+│   ├── executor/            # Trade execution logic
+│   │   ├── simulated_executor.py
+│   │   └── broker_executor.py
+│   │
+│   ├── risk_manager.py      # Risk control module
+│   ├── backtester.py        # Strategy evaluation
+│   ├── logger.py            # Logging system
+│   └── main.py              # Entry point of the agent
+│
+├── notebooks/               # Jupyter notebooks for EDA/model training
+│   └── price_forecasting.ipynb
+│
+├── requirements.txt         # Python dependencies
+├── Dockerfile               # Containerization
+├── README.md
+└── .gitignore

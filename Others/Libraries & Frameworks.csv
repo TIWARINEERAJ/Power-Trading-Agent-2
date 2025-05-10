@@ -1,0 +1,8 @@
+﻿Purpose,Tools
+ML/AI Models,TensorFlow, PyTorch, scikit-learn, Prophet, XGBoost
+Time Series Forecasting,statsmodels, darts, gluon-ts
+Trading Platforms/APIs,ccxt (crypto), pyalgotrade, custom APIs for power markets
+Data Handling,pandas, numpy, Polars
+Task Orchestration,Celery, Airflow, LangChain
+Messaging,RabbitMQ, Redis, ZeroMQ
+Logging/Monitoring,Prometheus, Grafana, logging, Sentry

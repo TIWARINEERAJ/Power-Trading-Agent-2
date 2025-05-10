@@ -1,0 +1,8 @@
+﻿Component,Description
+📊 Market Data Feed,Real-time and historical power prices, weather forecasts, load/demand data
+🤖 Decision Engine,AI model for price forecasting and trade decision-making
+🔄 Planning Module,Strategy planning (buy/sell timing, risk management)
+🤝 Executor,Interface with exchanges/brokers to place trades
+🧩 Memory System,Store past trades, outcomes, and learning
+🔒 Risk Manager,Enforce limits (budget, position size, stop-loss)
+📈 Backtester,Simulate performance before live trading

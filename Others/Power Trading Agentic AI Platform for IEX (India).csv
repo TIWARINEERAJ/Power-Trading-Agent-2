@@ -1,0 +1,9 @@
+﻿Feature,Description
+📊 Real-time Data Ingestion,Fetch live prices from IEX using APIs or web scraping
+🧠 Price Forecasting Engine,Time-series forecasting using ML/DL models
+🤖 Decision Agent,Rule-based or RL agent to decide buy/sell actions
+🔄 Trade Executor,Simulated or real trade execution via broker API
+📈 Backtester,Evaluate strategies against historical data
+🔒 Risk Manager,Enforce stop-loss, budget limits, position size
+📁 Logging &amp; Monitoring,Store trades, visualize performance
+☁️ Deployment Ready,Dockerized for local/cloud deployment

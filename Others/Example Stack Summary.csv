@@ -1,0 +1,9 @@
+﻿Layer,Technology
+Data Layer,REST APIs (Nord Pool, Weather), CSV/Pickle, PostgreSQL
+Processing,Pandas, NumPy, Scikit-learn
+Forecasting,LSTM, LightGBM
+Agent Logic,Python + LangChain or custom planner
+Trading Interface,Custom API client or broker SDK
+Risk Control,Hardcoded thresholds, RL penalties
+Deployment,Docker, Flask/FastAPI, Celery workers
+Monitoring,Grafana + Prometheus or custom dashboard
