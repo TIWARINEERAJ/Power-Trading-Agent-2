@@ -1,4 +1,3 @@
-
 ⚡ Power Trading Agent for IEX (India)
 A full-stack, agentic AI platform for automated trading, forecasting, and analytics on the Indian Energy Exchange (IEX). This project features real-time data scraping, price forecasting, rule-based trading, and a beautiful Streamlit dashboard for visualization and control.
 
