@@ -10,9 +10,7 @@ A modern, agentic AI platform for automated trading, forecasting, and analytics 
 
 ## 📊 Demo
 
-![Dashboard Screenshot](https://raw.githubusercontent.com/TIWARINEERAJ/power-trading-agent/main/demo_screenshot.png)
-
-> _Add your own screenshot or GIF above after your first deployment!_
+![Dashboard Screenshot](./demo_screenshot.png)
 
 ---
 
@@ -158,4 +156,4 @@ For questions, suggestions, or support, open an issue or contact [@TIWARINEERAJ]
 - [Streamlit](https://streamlit.io/)
 - [scikit-learn](https://scikit-learn.org/)
 - [pandas](https://pandas.pydata.org/)
-- [matplotlib](https://matplotlib.org/)
+- [matplotlib](https://matplotlib.org/)# Power-Trading-Agent-2
