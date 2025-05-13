@@ -13,3 +13,7 @@ streamlit
 selenium
 webdriver-manager
 lxml
+yfinance
+sqlite3
+smtplib
+plotly>=5.0.0
